@@ -1,0 +1,10 @@
+{
+  "id": "R005",
+  "title": "Windows Security audit log cleared",
+  "kind": "single",
+  "severity": "high",
+  "attack": ["T1070.001"],
+  "selection": {"Provider": "Microsoft-Windows-Eventlog", "Channel": "Security", "EventID": 1102},
+  "false_positives": ["Approved maintenance or lab reset"],
+  "limitations": "Indicates clearing, not malicious intent. Other log tampering methods may not produce 1102. Earlier evidence requires forwarding or a prior export."
+}

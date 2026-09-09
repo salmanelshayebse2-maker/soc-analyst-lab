@@ -1,0 +1,10 @@
+{
+  "id": "R003",
+  "title": "Scheduled task references a commonly writable path",
+  "kind": "single",
+  "severity": "high",
+  "attack": ["T1053.005"],
+  "selection": {"Provider": "Microsoft-Windows-Security-Auditing", "Channel": "Security", "EventID": 4698, "TaskContent|contains": ["\\Users\\Public\\", "\\AppData\\", "\\Windows\\Temp\\"]},
+  "false_positives": ["Legitimate per-user installers or automation"],
+  "limitations": "Substring heuristic over the full task XML, including non-action text. Does not resolve environment variables, validate ACLs, detect all persistence, or prove the task ran."
+}

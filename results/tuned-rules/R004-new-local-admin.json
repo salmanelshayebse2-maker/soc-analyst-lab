@@ -1,0 +1,14 @@
+{
+  "id": "R004",
+  "title": "New account added to local Administrators within ten minutes",
+  "kind": "sequence",
+  "severity": "high",
+  "attack": ["T1136.001", "T1098"],
+  "prior": {"Provider": "Microsoft-Windows-Security-Auditing", "Channel": "Security", "EventID": 4720},
+  "current": {"Provider": "Microsoft-Windows-Security-Auditing", "Channel": "Security", "EventID": 4732, "TargetSid": "S-1-5-32-544"},
+  "join": {"Computer": "Computer", "TargetSid": "MemberSid"},
+  "window_seconds": 600,
+  "min_prior": 1,
+  "false_positives": ["Approved workstation provisioning or break-glass account creation"],
+  "limitations": "Intended for member endpoints with local account telemetry. Validate TargetDomainName is the endpoint, especially if adapting to domain-controller logs. Existing accounts added to Administrators are outside this rule."
+}

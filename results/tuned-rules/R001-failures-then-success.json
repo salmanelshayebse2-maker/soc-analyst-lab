@@ -1,0 +1,41 @@
+{
+  "id": "R001",
+  "title": "Repeated network logon failures followed by success",
+  "kind": "sequence",
+  "severity": "high",
+  "attack": [
+    "T1110.001",
+    "T1078"
+  ],
+  "prior": {
+    "Provider": "Microsoft-Windows-Security-Auditing",
+    "Channel": "Security",
+    "EventID": 4625,
+    "LogonType": [
+      3,
+      10
+    ]
+  },
+  "current": {
+    "Provider": "Microsoft-Windows-Security-Auditing",
+    "Channel": "Security",
+    "EventID": 4624,
+    "LogonType": [
+      3,
+      10
+    ]
+  },
+  "join": {
+    "Computer": "Computer",
+    "TargetDomainName": "TargetDomainName",
+    "TargetUserName": "TargetUserName",
+    "IpAddress": "IpAddress"
+  },
+  "window_seconds": 300,
+  "min_prior": 7,
+  "false_positives": [
+    "User retries then logs in correctly",
+    "Stale credentials followed by an approved password update"
+  ],
+  "limitations": "Requires a later success; does not detect failures alone, distributed sources, or password spraying across users. Types 3 and 10 may correlate across NLA and RDP stages. This does not prove how credentials were obtained."
+}

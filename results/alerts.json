@@ -1,0 +1,101 @@
+[
+  {
+    "alert_id": "cc38322a9db8",
+    "rule_id": "R002",
+    "title": "PowerShell launched with an encoded command",
+    "severity": "medium",
+    "attack": [
+      "T1059.001"
+    ],
+    "time": "2026-08-18T09:05:00Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Microsoft-Windows-Sysmon/Operational|2000"
+    ],
+    "disposition": "needs_review"
+  },
+  {
+    "alert_id": "bc58dc64cfb8",
+    "rule_id": "R001",
+    "title": "Repeated network logon failures followed by success",
+    "severity": "high",
+    "attack": [
+      "T1110.001",
+      "T1078"
+    ],
+    "time": "2026-08-18T10:15:20Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Security|1300",
+      "WS-FIN-01|Security|1301",
+      "WS-FIN-01|Security|1302",
+      "WS-FIN-01|Security|1303",
+      "WS-FIN-01|Security|1304",
+      "WS-FIN-01|Security|1305",
+      "WS-FIN-01|Security|1306"
+    ],
+    "disposition": "needs_review"
+  },
+  {
+    "alert_id": "c214a8144e65",
+    "rule_id": "R002",
+    "title": "PowerShell launched with an encoded command",
+    "severity": "medium",
+    "attack": [
+      "T1059.001"
+    ],
+    "time": "2026-08-18T10:16:00Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Microsoft-Windows-Sysmon/Operational|2001"
+    ],
+    "disposition": "needs_review"
+  },
+  {
+    "alert_id": "c640bfdfc7b2",
+    "rule_id": "R003",
+    "title": "Scheduled task references a commonly writable path",
+    "severity": "high",
+    "attack": [
+      "T1053.005"
+    ],
+    "time": "2026-08-18T10:17:00Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Security|1310"
+    ],
+    "disposition": "needs_review"
+  },
+  {
+    "alert_id": "37cd7aa1f3f0",
+    "rule_id": "R004",
+    "title": "New account added to local Administrators within ten minutes",
+    "severity": "high",
+    "attack": [
+      "T1136.001",
+      "T1098"
+    ],
+    "time": "2026-08-18T10:18:30Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Security|1311",
+      "WS-FIN-01|Security|1312"
+    ],
+    "disposition": "needs_review"
+  },
+  {
+    "alert_id": "d7f571ccffec",
+    "rule_id": "R005",
+    "title": "Windows Security audit log cleared",
+    "severity": "high",
+    "attack": [
+      "T1070.001"
+    ],
+    "time": "2026-08-18T10:20:00Z",
+    "computer": "WS-FIN-01",
+    "evidence": [
+      "WS-FIN-01|Security|1313"
+    ],
+    "disposition": "needs_review"
+  }
+]

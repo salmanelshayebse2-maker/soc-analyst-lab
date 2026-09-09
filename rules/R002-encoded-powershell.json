@@ -1,0 +1,10 @@
+{
+  "id": "R002",
+  "title": "PowerShell launched with an encoded command",
+  "kind": "single",
+  "severity": "medium",
+  "attack": ["T1059.001"],
+  "selection": {"Provider": "Microsoft-Windows-Sysmon", "Channel": "Microsoft-Windows-Sysmon/Operational", "EventID": 1, "Image|endswith": ["\\powershell.exe", "\\pwsh.exe"], "CommandLine|regex": "(?:^|\\s)-(?:enc|encodedcommand)\\s+[\"']?[A-Za-z0-9+/=]+"},
+  "false_positives": ["Approved management and inventory automation"],
+  "limitations": "Encoded text is not inherently malicious. Detects two explicit parameter spellings only; other abbreviations, obfuscation, renamed binaries and missing command-line telemetry can evade it."
+}

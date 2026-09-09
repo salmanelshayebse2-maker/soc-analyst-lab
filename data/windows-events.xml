@@ -1,0 +1,3613 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event" xmlns:ns1="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:00:00Z" />
+      <EventRecordID>1000</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1000</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:00:30Z" />
+      <EventRecordID>1001</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1001</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:01:00Z" />
+      <EventRecordID>1002</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1002</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:01:30Z" />
+      <EventRecordID>1003</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1003</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:02:00Z" />
+      <EventRecordID>1004</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1004</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:02:30Z" />
+      <EventRecordID>1005</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1005</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:03:00Z" />
+      <EventRecordID>1006</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1006</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:03:30Z" />
+      <EventRecordID>1007</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1007</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:04:00Z" />
+      <EventRecordID>1008</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1008</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:04:30Z" />
+      <EventRecordID>1009</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1009</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:05:00Z" />
+      <EventRecordID>1010</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:05:30Z" />
+      <EventRecordID>1011</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:06:00Z" />
+      <EventRecordID>1012</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:06:30Z" />
+      <EventRecordID>1013</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:07:00Z" />
+      <EventRecordID>1014</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:07:30Z" />
+      <EventRecordID>1015</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x100f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:08:00Z" />
+      <EventRecordID>1016</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1010</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:08:30Z" />
+      <EventRecordID>1017</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1011</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:09:00Z" />
+      <EventRecordID>1018</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1012</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:09:30Z" />
+      <EventRecordID>1019</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1013</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:10:00Z" />
+      <EventRecordID>1020</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1014</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:10:30Z" />
+      <EventRecordID>1021</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1015</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:11:00Z" />
+      <EventRecordID>1022</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1016</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:11:30Z" />
+      <EventRecordID>1023</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1017</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:12:00Z" />
+      <EventRecordID>1024</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1018</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:12:30Z" />
+      <EventRecordID>1025</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1019</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:13:00Z" />
+      <EventRecordID>1026</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:13:30Z" />
+      <EventRecordID>1027</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:14:00Z" />
+      <EventRecordID>1028</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:14:30Z" />
+      <EventRecordID>1029</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:15:00Z" />
+      <EventRecordID>1030</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:15:30Z" />
+      <EventRecordID>1031</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x101f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:16:00Z" />
+      <EventRecordID>1032</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1020</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:16:30Z" />
+      <EventRecordID>1033</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1021</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:17:00Z" />
+      <EventRecordID>1034</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1022</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:17:30Z" />
+      <EventRecordID>1035</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1023</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:18:00Z" />
+      <EventRecordID>1036</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1024</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:18:30Z" />
+      <EventRecordID>1037</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1025</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:19:00Z" />
+      <EventRecordID>1038</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1026</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:19:30Z" />
+      <EventRecordID>1039</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1027</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:20:00Z" />
+      <EventRecordID>1040</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1028</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:20:30Z" />
+      <EventRecordID>1041</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1029</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:21:00Z" />
+      <EventRecordID>1042</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:21:30Z" />
+      <EventRecordID>1043</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:22:00Z" />
+      <EventRecordID>1044</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:22:30Z" />
+      <EventRecordID>1045</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:23:00Z" />
+      <EventRecordID>1046</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:23:30Z" />
+      <EventRecordID>1047</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x102f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:24:00Z" />
+      <EventRecordID>1048</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1030</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:24:30Z" />
+      <EventRecordID>1049</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1031</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:25:00Z" />
+      <EventRecordID>1050</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1032</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:25:30Z" />
+      <EventRecordID>1051</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1033</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:26:00Z" />
+      <EventRecordID>1052</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1034</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:26:30Z" />
+      <EventRecordID>1053</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1035</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:27:00Z" />
+      <EventRecordID>1054</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1036</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:27:30Z" />
+      <EventRecordID>1055</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1037</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:28:00Z" />
+      <EventRecordID>1056</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1038</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:28:30Z" />
+      <EventRecordID>1057</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1039</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:29:00Z" />
+      <EventRecordID>1058</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:29:30Z" />
+      <EventRecordID>1059</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:30:00Z" />
+      <EventRecordID>1060</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:30:30Z" />
+      <EventRecordID>1061</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:31:00Z" />
+      <EventRecordID>1062</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:31:30Z" />
+      <EventRecordID>1063</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x103f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:32:00Z" />
+      <EventRecordID>1064</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1040</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:32:30Z" />
+      <EventRecordID>1065</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1041</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:33:00Z" />
+      <EventRecordID>1066</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1042</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:33:30Z" />
+      <EventRecordID>1067</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1043</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:34:00Z" />
+      <EventRecordID>1068</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1044</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:34:30Z" />
+      <EventRecordID>1069</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1045</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:35:00Z" />
+      <EventRecordID>1070</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1046</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:35:30Z" />
+      <EventRecordID>1071</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1047</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:36:00Z" />
+      <EventRecordID>1072</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1048</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:36:30Z" />
+      <EventRecordID>1073</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1049</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:37:00Z" />
+      <EventRecordID>1074</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:37:30Z" />
+      <EventRecordID>1075</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:38:00Z" />
+      <EventRecordID>1076</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:38:30Z" />
+      <EventRecordID>1077</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:39:00Z" />
+      <EventRecordID>1078</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:39:30Z" />
+      <EventRecordID>1079</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x104f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:40:00Z" />
+      <EventRecordID>1080</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1050</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:40:30Z" />
+      <EventRecordID>1081</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1051</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:41:00Z" />
+      <EventRecordID>1082</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1052</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:41:30Z" />
+      <EventRecordID>1083</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1053</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:42:00Z" />
+      <EventRecordID>1084</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1054</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:42:30Z" />
+      <EventRecordID>1085</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1055</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:43:00Z" />
+      <EventRecordID>1086</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1056</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:43:30Z" />
+      <EventRecordID>1087</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1057</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:44:00Z" />
+      <EventRecordID>1088</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1058</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:44:30Z" />
+      <EventRecordID>1089</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1059</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:45:00Z" />
+      <EventRecordID>1090</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:45:30Z" />
+      <EventRecordID>1091</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:46:00Z" />
+      <EventRecordID>1092</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:46:30Z" />
+      <EventRecordID>1093</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:47:00Z" />
+      <EventRecordID>1094</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:47:30Z" />
+      <EventRecordID>1095</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x105f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:48:00Z" />
+      <EventRecordID>1096</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1060</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:48:30Z" />
+      <EventRecordID>1097</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1061</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:49:00Z" />
+      <EventRecordID>1098</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1062</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:49:30Z" />
+      <EventRecordID>1099</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1063</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:50:00Z" />
+      <EventRecordID>1100</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1064</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:50:30Z" />
+      <EventRecordID>1101</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1065</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:51:00Z" />
+      <EventRecordID>1102</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1066</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:51:30Z" />
+      <EventRecordID>1103</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1067</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:52:00Z" />
+      <EventRecordID>1104</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1068</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:52:30Z" />
+      <EventRecordID>1105</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1069</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:53:00Z" />
+      <EventRecordID>1106</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106a</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:53:30Z" />
+      <EventRecordID>1107</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106b</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:54:00Z" />
+      <EventRecordID>1108</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106c</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:54:30Z" />
+      <EventRecordID>1109</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106d</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:55:00Z" />
+      <EventRecordID>1110</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106e</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:55:30Z" />
+      <EventRecordID>1111</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x106f</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:56:00Z" />
+      <EventRecordID>1112</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1070</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:56:30Z" />
+      <EventRecordID>1113</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1071</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:57:00Z" />
+      <EventRecordID>1114</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1072</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:57:30Z" />
+      <EventRecordID>1115</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1073</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:58:00Z" />
+      <EventRecordID>1116</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1074</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:58:30Z" />
+      <EventRecordID>1117</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1075</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:59:00Z" />
+      <EventRecordID>1118</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1076</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T08:59:30Z" />
+      <EventRecordID>1119</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-HR-02</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m.chen</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1102</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-HR-02$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1077</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:00:00Z" />
+      <EventRecordID>1200</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:00:01Z" />
+      <EventRecordID>1201</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:00:15Z" />
+      <EventRecordID>1202</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">a.patel</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1101</Data>
+      <Data Name="IpAddress">10.20.5.10</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x1010</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:05:00Z" />
+      <EventRecordID>2000</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="CommandLine">powershell.exe -EncodedCommand VwByAGkAdABlAC0ATwB1AHQAcAB1AHQAIAAnAE4AbwByAHQAaABzAHQAYQByACAAaQBuAHYAZQBuAHQAbwByAHkAIABjAGgAZQBjAGsAJwA=</Data>
+      <Data Name="User">NORTHSTAR\svc_inventory</Data>
+      <Data Name="LogonId">0x8800</Data>
+      <Data Name="ProcessGuid">{b04d8640-0905-6500-0000-001000000002}</Data>
+      <Data Name="ProcessId">3300</Data>
+      <Data Name="ParentImage">C:\Program Files\Northstar\InventoryAgent.exe</Data>
+      <Data Name="ParentCommandLine">InventoryAgent.exe --daily</Data>
+      <Data Name="ParentProcessId">1500</Data>
+      <Data Name="ParentProcessGuid">{b04d8640-0900-6500-0000-001000000003}</Data>
+      <Data Name="IntegrityLevel">High</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4698</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:10:00Z" />
+      <EventRecordID>1210</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">svc_inventory</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x8800</Data>
+      <Data Name="TaskName">\Northstar\Inventory</Data>
+      <Data Name="TaskContent">&lt;Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;&lt;Triggers&gt;&lt;LogonTrigger&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;/LogonTrigger&gt;&lt;/Triggers&gt;&lt;Principals&gt;&lt;Principal id="Author"&gt;&lt;UserId&gt;NORTHSTAR\svc_inventory&lt;/UserId&gt;&lt;LogonType&gt;InteractiveToken&lt;/LogonType&gt;&lt;RunLevel&gt;HighestAvailable&lt;/RunLevel&gt;&lt;/Principal&gt;&lt;/Principals&gt;&lt;Settings&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;/Settings&gt;&lt;Actions Context="Author"&gt;&lt;Exec&gt;&lt;Command&gt;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe&lt;/Command&gt;&lt;Arguments&gt;-NoProfile -File C:\Program Files\Northstar\inventory.ps1&lt;/Arguments&gt;&lt;/Exec&gt;&lt;/Actions&gt;&lt;/Task&gt;</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4720</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:15:00Z" />
+      <EventRecordID>1220</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">lab_reader</Data>
+      <Data Name="TargetDomainName">WS-FIN-01</Data>
+      <Data Name="TargetSid">S-1-5-21-111111111-222222222-333333333-1500</Data>
+      <Data Name="SubjectUserName">it.admin</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9900</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4732</EventID>
+      <TimeCreated SystemTime="2026-08-18T09:15:30Z" />
+      <EventRecordID>1221</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Users</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-545</Data>
+      <Data Name="MemberSid">S-1-5-21-111111111-222222222-333333333-1500</Data>
+      <Data Name="MemberName">-</Data>
+      <Data Name="SubjectUserName">it.admin</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9900</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:00Z" />
+      <EventRecordID>1300</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:10Z" />
+      <EventRecordID>1301</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:20Z" />
+      <EventRecordID>1302</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:30Z" />
+      <EventRecordID>1303</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:40Z" />
+      <EventRecordID>1304</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:14:50Z" />
+      <EventRecordID>1305</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="LogonProcessName">NtLmSsp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:15:20Z" />
+      <EventRecordID>1306</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">j.morgan</Data>
+      <Data Name="TargetDomainName">NORTHSTAR</Data>
+      <Data Name="TargetUserSid">S-1-5-21-444444444-555555555-666666666-1105</Data>
+      <Data Name="IpAddress">192.0.2.44</Data>
+      <Data Name="IpPort">51432</Data>
+      <Data Name="LogonType">10</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WS-FIN-01$</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetLogonId">0x9f2a</Data>
+      <Data Name="LogonProcessName">User32</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4672</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:15:21Z" />
+      <EventRecordID>1307</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-444444444-555555555-666666666-1105</Data>
+      <Data Name="SubjectUserName">j.morgan</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9f2a</Data>
+      <Data Name="PrivilegeList">SeDebugPrivilege SeBackupPrivilege SeRestorePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:16:00Z" />
+      <EventRecordID>2001</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="CommandLine">powershell.exe -NoProfile -EncodedCommand SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0ACAALQBVAHIAaQAgACcAaAB0AHQAcABzADoALwAvAHQAZQBsAGUAbQBlAHQAcgB5AC4AZQB4AGEAbQBwAGwAZQAuAGkAbgB2AGEAbABpAGQALwBoAGUAYQBsAHQAaAAnACAALQBVAHMAZQBCAGEAcwBpAGMAUABhAHIAcwBpAG4AZwA=</Data>
+      <Data Name="User">NORTHSTAR\j.morgan</Data>
+      <Data Name="LogonId">0x9f2a</Data>
+      <Data Name="ProcessGuid">{b04d8640-0a15-6500-0000-001000000001}</Data>
+      <Data Name="ProcessId">4420</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+      <Data Name="ParentProcessId">4000</Data>
+      <Data Name="ParentProcessGuid">{b04d8640-1015-6500-0000-001000000004}</Data>
+      <Data Name="IntegrityLevel">High</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>3</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:16:05Z" />
+      <EventRecordID>2002</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">NORTHSTAR\j.morgan</Data>
+      <Data Name="ProcessGuid">{b04d8640-0a15-6500-0000-001000000001}</Data>
+      <Data Name="ProcessId">4420</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIp">10.20.10.21</Data>
+      <Data Name="SourcePort">50140</Data>
+      <Data Name="DestinationIp">198.51.100.25</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="DestinationHostname">telemetry.example.invalid</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4698</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:17:00Z" />
+      <EventRecordID>1310</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">j.morgan</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9f2a</Data>
+      <Data Name="TaskName">\OneDrive Health Check</Data>
+      <Data Name="TaskContent">&lt;Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;&lt;Triggers&gt;&lt;LogonTrigger&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;/LogonTrigger&gt;&lt;/Triggers&gt;&lt;Principals&gt;&lt;Principal id="Author"&gt;&lt;UserId&gt;NORTHSTAR\j.morgan&lt;/UserId&gt;&lt;LogonType&gt;InteractiveToken&lt;/LogonType&gt;&lt;RunLevel&gt;HighestAvailable&lt;/RunLevel&gt;&lt;/Principal&gt;&lt;/Principals&gt;&lt;Settings&gt;&lt;Enabled&gt;true&lt;/Enabled&gt;&lt;/Settings&gt;&lt;Actions Context="Author"&gt;&lt;Exec&gt;&lt;Command&gt;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe&lt;/Command&gt;&lt;Arguments&gt;-NoProfile -File C:\Users\Public\Libraries\update.ps1&lt;/Arguments&gt;&lt;/Exec&gt;&lt;/Actions&gt;&lt;/Task&gt;</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4720</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:18:00Z" />
+      <EventRecordID>1311</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc_backup2</Data>
+      <Data Name="TargetDomainName">WS-FIN-01</Data>
+      <Data Name="TargetSid">S-1-5-21-111111111-222222222-333333333-1501</Data>
+      <Data Name="SubjectUserName">j.morgan</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9f2a</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" />
+      <EventID>4732</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:18:30Z" />
+      <EventRecordID>1312</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="MemberSid">S-1-5-21-111111111-222222222-333333333-1501</Data>
+      <Data Name="MemberName">-</Data>
+      <Data Name="SubjectUserName">j.morgan</Data>
+      <Data Name="SubjectDomainName">NORTHSTAR</Data>
+      <Data Name="SubjectLogonId">0x9f2a</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" />
+      <EventID>1102</EventID>
+      <TimeCreated SystemTime="2026-08-18T10:20:00Z" />
+      <EventRecordID>1313</EventRecordID>
+      <Channel>Security</Channel>
+      <Computer>WS-FIN-01</Computer>
+    </System>
+    <UserData>
+      <ns1:LogFileCleared>
+        <ns1:SubjectUserSid>S-1-5-21-444444444-555555555-666666666-1105</ns1:SubjectUserSid>
+        <ns1:SubjectUserName>j.morgan</ns1:SubjectUserName>
+        <ns1:SubjectDomainName>NORTHSTAR</ns1:SubjectDomainName>
+        <ns1:SubjectLogonId>0x9f2a</ns1:SubjectLogonId>
+      </ns1:LogFileCleared>
+    </UserData>
+  </Event>
+</Events>

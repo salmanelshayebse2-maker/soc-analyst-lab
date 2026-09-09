@@ -1,0 +1,42 @@
+Local validation: Windows / Python 3.12.14
+
+$ python -m soclab verify
+PASS: 1 evidence file(s) match SHA-256 manifest
+
+$ python -m unittest discover -s tests -v
+test_1102_userdata_parser (test_lab.LabTests.test_1102_userdata_parser) ... ok
+test_admin_join_uses_sid_and_host (test_lab.LabTests.test_admin_join_uses_sid_and_host) ... ok
+test_admin_ten_minute_boundary (test_lab.LabTests.test_admin_ten_minute_boundary) ... ok
+test_auth_case_insensitive_identity (test_lab.LabTests.test_auth_case_insensitive_identity) ... ok
+test_auth_exact_threshold (test_lab.LabTests.test_auth_exact_threshold) ... ok
+test_auth_join_dimensions_and_missing (test_lab.LabTests.test_auth_join_dimensions_and_missing) ... ok
+test_auth_local_logon_excluded (test_lab.LabTests.test_auth_local_logon_excluded) ... ok
+test_auth_rejects_same_or_later_timestamp (test_lab.LabTests.test_auth_rejects_same_or_later_timestamp) ... ok
+test_auth_requires_success (test_lab.LabTests.test_auth_requires_success) ... ok
+test_auth_window_inclusive (test_lab.LabTests.test_auth_window_inclusive) ... ok
+test_benign_alert_requires_triage (test_lab.LabTests.test_benign_alert_requires_triage) ... ok
+test_cli_full_run_and_errors (test_lab.LabTests.test_cli_full_run_and_errors) ... ok
+test_decode_is_text_only (test_lab.LabTests.test_decode_is_text_only) ... ok
+test_encoded_detection_variants (test_lab.LabTests.test_encoded_detection_variants) ... ok
+test_encoded_negative_controls (test_lab.LabTests.test_encoded_negative_controls) ... ok
+test_exact_expected_evidence (test_lab.LabTests.test_exact_expected_evidence) ... ok
+test_generator_is_reproducible (test_lab.LabTests.test_generator_is_reproducible) ... ok
+test_input_order_does_not_change_alerts (test_lab.LabTests.test_input_order_does_not_change_alerts) ... ok
+test_manifest_and_count (test_lab.LabTests.test_manifest_and_count) ... ok
+test_manifest_tamper_detection (test_lab.LabTests.test_manifest_tamper_detection) ... ok
+test_no_preassigned_verdicts (test_lab.LabTests.test_no_preassigned_verdicts) ... ok
+test_outputs_reproducible_and_complete (test_lab.LabTests.test_outputs_reproducible_and_complete) ... ok
+test_parser_rejects_bad_xml_and_missing_system (test_lab.LabTests.test_parser_rejects_bad_xml_and_missing_system) ... ok
+test_parser_rejects_duplicate_identity (test_lab.LabTests.test_parser_rejects_duplicate_identity) ... ok
+test_single_event_export (test_lab.LabTests.test_single_event_export) ... ok
+test_task_positive_and_negative (test_lab.LabTests.test_task_positive_and_negative) ... ok
+test_timezone_normalization (test_lab.LabTests.test_timezone_normalization) ... ok
+test_wrong_provider_or_channel_never_matches (test_lab.LabTests.test_wrong_provider_or_channel_never_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 5.842s
+
+OK
+
+$ python -m soclab run
+Processed 141 events; generated 6 alerts -> <repository>\results
